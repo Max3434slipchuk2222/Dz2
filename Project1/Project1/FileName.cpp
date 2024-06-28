@@ -35,4 +35,15 @@ int main() {
 
     cout << "Ââåä³òü ğÿäîê" << endl;
     cin.getline(str, 50);
+
+    copyRadok(arr, str, Size);
+
+    b = Dovchyna(arr, Size);
+    c = a - b;
+
+    cout << "Çàéíÿòî ñèìâîë³â: " << b << endl;
+    cout << "Â³ëüíî ñèìâîë³â: " << c << endl;
+    cout << "Âñüîãî ñèìâîë³â: " << a << endl;
+
+    return 0;
 }
