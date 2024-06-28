@@ -5,7 +5,14 @@
 #define _CRT_SECURE_NO_WARNINGS
 using namespace std;
 #define Size 50
-
+void copyRadok(char* arr, const char* str, int size) {
+    for (int i = 0; i < size; i++) {
+        arr[i] = str[i];
+        if (str[i] == '\0') {
+            break;
+        }
+    }
+}
 int main() {
     srand(time(NULL));
     SetConsoleCP(1251);
