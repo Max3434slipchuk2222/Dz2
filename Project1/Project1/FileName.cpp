@@ -13,6 +13,16 @@ void copyRadok(char* arr, const char* str, int size) {
         }
     }
 }
+int Dovchyna(const char* arr, int size) {
+    int count = 0;
+    for (int i = 0; i < size; i++) {
+        if (arr[i] == '\0') {
+            break;
+        }
+        count++;
+    }
+    return count;
+}
 int main() {
     srand(time(NULL));
     SetConsoleCP(1251);
