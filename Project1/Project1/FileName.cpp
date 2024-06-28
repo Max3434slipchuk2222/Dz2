@@ -15,4 +15,7 @@ int main() {
     int b = 0;
     int c = Size; 
     int a = Size; 
+
+    cout << "¬вед≥ть р€док" << endl;
+    cin.getline(str, 50);
 }
